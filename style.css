@@ -1,0 +1,110 @@
+body {
+	border-top: #F14144 solid 5px;
+	margin: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #454545;
+}
+
+.inter_links {
+	margin-top: 0px;
+	float: left;
+	width: 33.3333%;
+}
+
+p a {
+    display: block;
+    color: #454545;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 2em;
+	z-index: 98;
+	background-color: white;
+}
+
+.inter_links a:hover {
+    background-color: #F1F1F1;
+}
+
+#main_title {
+	font-size: 5em;
+	margin: 5em 5em 2em 1em;
+}
+
+.titleLetter {
+	color: #F14144;
+}
+
+.firstPicSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)), url(images/IMG_20160917_103438.jpg);
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: #F14144 solid 5px;
+}
+
+/*----Picture Section---------*/
+/* Watch out for this one*/
+.firstPicture {
+  margin-top: 0px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.picTitle {
+  margin: 0em;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.picText {
+  margin: 1em;
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+
+/*------Second Picture------*/
+
+.secondPicSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)), url(images/IMG_20160831_122944.jpg);
+  background-size: cover;
+  height: 90vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-top: #F14144 solid 5px;
+}
+
+.secondPicture {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/*----------Only Text Section--------*/
+
+.textSection {
+  text-align: center;
+  margin: 7%;
+}
+h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+.onlyTextSection-p {
+  margin: 0;
+  font-size: 2rem;
+}
