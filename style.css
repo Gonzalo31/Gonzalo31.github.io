@@ -45,7 +45,7 @@ p a {
 }
 
 .firstPicSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/boats.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/camping.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
@@ -82,7 +82,7 @@ p a {
 /*------Second Picture------*/
 
 .secondPicSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/camping.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/boats.jpg);
   background-size: cover;
   height: 90vh;
 	background-attachment: fixed;
