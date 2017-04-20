@@ -5,10 +5,23 @@ body {
 	color: #454545;
 }
 
-.inter_links {
+.inter_links_top {
 	margin-top: 0px;
 	float: left;
-	width: 33.3333%;
+	width: 25%;
+}
+.inter_links_bottom {
+	margin-top: 0px;
+	float: left;
+	width: 25%;
+	border-top: #F14144 solid 5px;
+}
+
+.inter_links_top a:hover {
+    background-color: #F1F1F1;
+}
+.inter_links_bottom a:hover {
+    background-color: #F1F1F1;
 }
 
 p a {
@@ -22,10 +35,6 @@ p a {
 	background-color: white;
 }
 
-.inter_links a:hover {
-    background-color: #F1F1F1;
-}
-
 #main_title {
 	font-size: 5em;
 	margin: 5em 5em 2em 1em;
@@ -36,13 +45,13 @@ p a {
 }
 
 .firstPicSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)), url(images/IMG_20160917_103438.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/boats.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  border-bottom: #F14144 solid 5px;
+  /*border-bottom: #F14144 solid 5px;*/
 }
 
 /*----Picture Section---------*/
@@ -63,8 +72,8 @@ p a {
   text-shadow: 2px 2px 4px #000000;
 }
 .picText {
-  margin: 1em;
-  font-size: 2em;
+  margin: 0em;
+  font-size: 1.7em;
   color: white;
   text-shadow: 1px 1px 2px #000000;
 }
@@ -73,7 +82,7 @@ p a {
 /*------Second Picture------*/
 
 .secondPicSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)), url(images/IMG_20160831_122944.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/camping.jpg);
   background-size: cover;
   height: 90vh;
 	background-attachment: fixed;
@@ -81,11 +90,12 @@ p a {
     background-repeat: no-repeat;
     background-size: cover;
 	border-top: #F14144 solid 5px;
+	border-bottom: #F14144 solid 5px;
 }
 
 .secondPicture {
   position: absolute;
-  top: 200%;
+  top: 220%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
