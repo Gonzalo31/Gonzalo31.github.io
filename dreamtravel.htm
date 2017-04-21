@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DreamTravel</title>
+<style>
+body {
+	font-family:Verdana, Geneva, sans-serif;
+}
+#title {
+	font-size:40px;
+	text-align:left;
+}
+#header {
+	background-color:#09F;
+	color:#FFFFFF;
+	padding:15px;
+	position:fixed;
+	border-bottom: solid #FFF 5px;
+	border-top: solid #FFF 5px;
+	left:0px;
+	margin:0px;
+	width:100%;
+	box-shadow: 5px 2px 10px black;
+}
+
+.headli {
+	float:right;
+	margin-right:70px;
+	display:inline;
+	font-size:18px
+}
+
+.headli:hover {
+	text-decoration:underline;
+}
+
+#sea {
+	background-image:url(data:image/jpeg;base64,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);
+	background-repeat: no-repeat;
+	padding:25%;
+	background-size:100%;
+	color:#FFFFFF;
+	font-size:10an;
+	text-align:center;
+	text-shadow: 1px 1px 3px black;
+}
+.subtitle {
+	text-align:center;
+	color:#09F;
+}
+.description {
+	text-align:center;
+}
+
+li {
+	list-style-type: none;
+}
+
+#footer {
+	background-color:#09F;
+	color:white;
+	padding:40px;
+}
+
+#footer_follow {
+	float:right;
+}
+	
+.sm:hover {
+	text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+<div id="header">
+<ul>
+	<li id="title">DreamTravel</li>
+	<li class="headli">Home</li>
+    <li class="headli">News</li>
+    <li class="headli">About</li>
+    <li class="headli">Contact</li>
+</ul>
+</div>
+<h1 id="sea">Go to the sea.</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 class="subtitle">Our travelling Agency had the number 1 in sales in 2015.</h1>
+	<p class="description">Our quality makes us proud to serve our clients. We have the best quality-price relationship in the whole market.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<div id="footer">
+    <div style="vertical-align:top; display:inline-block">
+    
+    <p>©DreamTravel</p>
+    <p>143 Main Street,<br />Vienna, Austria</p>
+    </div>
+    <div id="footer_follow" style="vertical-align:top; display:inline-block">
+    <p>Follow us on:</p>
+    <ul>
+        <li class="sm">Facebook</li>
+        <li class="sm">Twitter</li>
+        <li class="sm">Instagram</li>
+    </ul>
+    </div>
+	<p style="text-align:center"><a href="#sea" style="text-align:center">Go to top ^</a></p>
+    </div>
+</body>
+</html>
