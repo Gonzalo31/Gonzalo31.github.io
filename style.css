@@ -5,6 +5,9 @@ body {
 	color: #454545;
 }
 
+/*----------------------------------
+------------NAVIGATION--BAR---------
+------------------------------------*/
 .inter_links_top {
 	margin-top: 0px;
 	float: left;
@@ -21,10 +24,10 @@ body {
     background-color: #F1F1F1;
 }
 .inter_links_bottom a:hover {
-    background-color: #F1F1F1;
+    background-color: #DDDDDD;
 }
 
-p a {
+.inter_links_top a {
     display: block;
     color: #454545;
     text-align: center;
@@ -34,6 +37,25 @@ p a {
 	z-index: 98;
 	background-color: white;
 }
+.inter_links_bottom a {
+    display: block;
+    color: #454545;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 2em;
+	z-index: 98;
+	background-color: white;
+}
+
+/*-------Links--------*/
+
+.external_links {
+	color: #F14144;
+	text-decoration: inherit;
+}
+
+/*--------No-longer-links-------*/
 
 #main_title {
 	font-size: 5em;
@@ -45,7 +67,7 @@ p a {
 }
 
 .firstPicSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/camping.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(images/camping.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
@@ -59,7 +81,7 @@ p a {
 .firstPicture {
   margin-top: 0px;
   position: absolute;
-  top: 65%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -82,7 +104,7 @@ p a {
 /*------Second Picture------*/
 
 .secondPicSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(/images/boats.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(images/boats.jpg);
   background-size: cover;
   height: 90vh;
 	background-attachment: fixed;
@@ -95,7 +117,53 @@ p a {
 
 .secondPicture {
   position: absolute;
-  top: 220%;
+  top: 208%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/*------Third Picture------*/
+
+.thirdPicSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url(images/french_debating_team.jpg);
+  background-size: cover;
+  height: 90vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-top: #F14144 solid 5px;
+	border-bottom: #F14144 solid 5px;
+}
+
+.thirdPicture {
+  position: absolute;
+  top: 405%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/*------Waffle Picture------*/
+
+.wafflePicSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01),rgba(0, 0, 0, 0.02)), url(images/waffles_poster.png);
+  background-size: cover;
+  height: 90vh;
+	/*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-top: #F14144 solid 5px;
+	border-bottom: #F14144 solid 5px;
+}
+
+.wafflePicture {
+  position: absolute;
+  top: 435%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
