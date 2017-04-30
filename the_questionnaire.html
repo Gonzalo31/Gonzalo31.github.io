@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Questionn"air"</title>
+<link rel="stylesheet" type="text/css" href="the_questionnaire.css">
+<script src="the_questionnaire.js"></script>
+</head>
+
+<body>
+<h1 id="title">The Questionn<span id="air">"air"</span></h1>
+<p id="description">Here are a few questions. Try to get as much points as possible! There are 8 questions. Good luck.</p>
+	
+	<form id="form1" name="form1" method="post">
+ 		<div class="section">
+		<p class="question"><span class="quLetter">I</span>n what year did the US Airways Flight 1549 land on the Hudson River, New York?</p>
+		<p><input type="radio" name="qu1" id="wrong.1.1" value="radio"><label for="radio"> 2004 </label></p>
+		<p><input type="radio" name="qu1" id="wrong.1.2" value="radio"><label for="radio"> 2006 </label></p>
+		<p><input type="radio" name="qu1" id="right.1" value="radio"><label for="radio"> 2009 </label></p>
+	</div>
+	
+	<div class="section">
+	  <p class="question"><span class="quLetter">W</span>hat is the average percentage of oxigen in the air?</p>
+		<p><input type="radio" name="qu2" id="right.2" value="radio"><label for="radio"> 20.95% </label></p>
+		<p><input type="radio" name="qu2" id="wrong.2.1" value="radio"><label for="radio"> 25.42% </label></p>
+		<p><input type="radio" name="qu2" id="wrong.2.2" value="radio"><label for="radio"> 18.17% </label></p>
+	</div>
+	
+	<div class="section">
+	  <p class="question"><span class="quLetter">W</span>hich type of plane does Ryanair, the Irish low-cost company, use?</p>
+		<p><input type="radio" name="qu3" id="wrong.3.1" value="radio"><label for="radio"> Boeing 747</label></p>
+		<p><input type="radio" name="qu3" id="wrong.3.2" value="radio"><label for="radio">  Airbus A380</label></p>
+		<p><input type="radio" name="qu3" id="right.3" value="radio"><label for="radio"> Boeing 737</label></p>
+	</div>
+	
+	<div class="section">
+	  <p class="question"><span class="quLetter">W</span>hat is the most correct definition of hyperventilation?</p>
+		<p><input type="radio" name="qu4" id="wrong.4.1" value="radio"><label for="radio"> Too much exposure to ventilators and natural winds causes this phenomenon.</label></p>
+		<p><input type="radio" name="qu4" id="right.4" value="radio"><label for="radio">  Hyperventilation occurs when there is an excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood.</label></p>
+		<p><input type="radio" name="qu4" id="wrong.4.2" value="radio"><label for="radio"> Hyperventilation happen when something or somebody is stuck inside a vent.</label></p>
+	</div>
+	
+	<div class="section">
+  		<p class="question"><span class="quLetter">W</span>hat does the term "Aer Lingus" mean?</p>
+		<p><input type="radio" name="qu5" id="wrong.5.1" value="radio"><label for="radio"> Lingular air</label></p>
+		<p><input type="radio" name="qu5" id="right.5" value="radio"><label for="radio"> Air fleet</label></p>
+		<p><input type="radio" name="qu5" id="wrong.5.2" value="radio"><label for="radio"> Aer means air, and Lingus is the owner's name</label></p>
+	</div>
+	
+	<div class="section">
+  		<p class="question"><span class="quLetter">W</span>hat gas does crips packets generally have inside?</p>
+		<p><input type="radio" name="qu6" id="wrong.6.1" value="radio"><label for="radio"> Air</label></p>
+		<p><input type="radio" name="qu6" id="wrong.6.2" value="radio"><label for="radio"> Perfluorocarbon </label></p>
+		<p><input type="radio" name="qu6" id="right.6" value="radio"><label for="radio">  Nitrogen</label></p>
+	</div>
+	
+	<div class="section">
+  		<p class="question"><span class="quLetter">A</span> German zeppelin crashed in 1937. This famous accident is known as the Hindenburg Disaster. Where did it take place?</p>
+		<p><input type="radio" name="qu7" id="right.7" value="radio"><label for="radio"> New Jersey, USA</label></p>
+		<p><input type="radio" name="qu7" id="wrong.7.1" value="radio"><label for="radio">  Hindenburg, Germany</label></p>
+		<p><input type="radio" name="qu7" id="wrong.7.2" value="radio"><label for="radio">  Liège, Belgium</label></p>
+	</div>
+	
+	<div class="section">
+  		<p class="question"><span class="quLetter">W</span>hich part of the atmosphere has the thickest air?</p>
+		<p><input type="radio" name="qu8" id="wrong.8.1" value="radio"><label for="radio"> Mesosphere</label></p>
+		<p><input type="radio" name="qu8" id="right.8" value="radio"><label for="radio"> Troposhere</label></p>
+		<p><input type="radio" name="qu8" id="wrong.8.2" value="radio"><label for="radio">  Stratosphere</label></p>
+	</div>
+	
+	<p>&nbsp;</p>
+	
+	<input type="button" name="button" value="See Points" onClick="checkPoints()">
+	
+	<p id="display">&nbsp;</p>
+	<p>&nbsp;</p>
+
+	</form>
+</body>
+</html>
