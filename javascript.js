@@ -11,8 +11,8 @@ function showHTML() {
 <head>
 <meta charset="utf-8">
 <title>My Transition Year Experience</title>
-<link rel="stylesheet" type="text/css" href="gonzalo_website.css">
-<script src="gonzalo_website.js"><span><</span>/script<span>></span>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="javascript.js"><span><</span>/script<span>></span>
 </head>
 
 <body>
